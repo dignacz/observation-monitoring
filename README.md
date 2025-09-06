@@ -19,7 +19,24 @@ A simple FastAPI application that tracks system observations, manages incident r
    ```
 
 2. **Install dependencies:**
+   
+   **Option A: Direct install**
    ```bash
+   pip install -r requirements.txt
+   ```
+   
+   **Option B: Using virtual environment (recommended)**
+   ```bash
+   # Create virtual environment
+   python -m venv venv
+   
+   # Activate it (Mac/Linux)
+   source venv/bin/activate
+   
+   # Activate it (Windows)
+   # venv\Scripts\activate
+   
+   # Install dependencies
    pip install -r requirements.txt
    ```
 
